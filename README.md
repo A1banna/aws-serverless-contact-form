@@ -43,7 +43,7 @@ S4: IAM policy (least privilege)
 </p>
 
 ## Key things I've learnt
-- How **serverless** pieces connect, and why the design is event-driven
+- How **serverless** pieces connect(API Gateway, Lambda, DynamoDB), and why the design is event-driven
 - Writing **IAM policies** with least privilege, and reading **AccessDenied** errors
 - Why **CORS** exists and how to configure it correctly
 - Using **CloudWatch logs** to debug a failing Lambda function
