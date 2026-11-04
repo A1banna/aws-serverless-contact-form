@@ -1,4 +1,4 @@
-# aws-serverless-contact-form
+# AWS-Serverless-Contact-Form
 Serverless contact form built using AWS
 
 A contact form for my portfolio site, built fully serverless on AWS. Visitors submit a message on the static website, and the form will be stored in DynamoDB. No servers to manage  
@@ -25,10 +25,22 @@ https://github.com/user-attachments/assets/0916f4bb-8a19-4857-a317-d6bee794f267
 - AWS IAM: Least-privilege role for Lambda function  
 
 ## Screenshots(Description):
-- S1: API Gateway route (POST /contact) API Gateway route  
-- S2: CORS configuration CORS  
-- S3: Lambda function and API Gateway trigger Lambda function  
-- S4: IAM policy (least privilege)  
+S1: API Gateway route (POST /contact) API Gateway route
+<p align="left">
+  <img src="https://github.com/A1banna/aws-serverless-contact-form/blob/9d303c0a412d6ec9f72b5937d99c6b673f0474e4/screenshots/SS2.png" width="650">
+</p>
+S2: CORS configuration CORS  
+<p align="left">
+  <img src="https://github.com/A1banna/aws-serverless-contact-form/blob/9d303c0a412d6ec9f72b5937d99c6b673f0474e4/screenshots/SS3.png" width="650">
+</p>
+S3: Lambda function and API Gateway trigger Lambda function 
+<p align="left">
+  <img src="https://github.com/A1banna/aws-serverless-contact-form/blob/9d303c0a412d6ec9f72b5937d99c6b673f0474e4/screenshots/SS4.png" width="650">
+</p>
+S4: IAM policy (least privilege) 
+<p align="left">
+  <img src="https://github.com/A1banna/aws-serverless-contact-form/blob/9d303c0a412d6ec9f72b5937d99c6b673f0474e4/screenshots/SS1.png" width="650">
+</p>
 
 ## Key things I've learnt
 - How **serverless** pieces connect, and why the design is event-driven
